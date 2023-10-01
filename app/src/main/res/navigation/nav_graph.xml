@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:startDestination="@id/main_activity">
+ <activity
+     android:id="@+id/main_activity"
+     android:name="com.onkaringale.notes.MainActivity"
+     android:label="Main Activity"
+     tools:layout="@layout/activity_main"
+     />
+ <activity
+     android:id="@+id/createNote"
+     android:name="com.onkaringale.notes.ui.CreateNote"
+     android:label="activity_create_note"
+     tools:layout="@layout/activity_create_note" />
+
+</navigation>
